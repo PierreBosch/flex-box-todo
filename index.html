@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todolist</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="todo">
+      <header class="todo__header">
+        <div class="todo__form">
+          <h1 class="todo__header-title">Adicionar novo todo</h1>
+  
+          <div class="input">
+            <input type="text" placeholder="Criar novo design de todo para teste" class="input__field">
+            <button class="input__button">
+              Add
+            </button>
+          </div>
+        </div>
+  
+        <div class="todo__filter">
+          <span class="todo__filter-title">Filtro:</span>
+
+          <ul class="filter">
+            <li class="filter__item">
+              Todas
+            </li>
+
+            <li class="filter__item" style="--bullet-color: #4BD88C">
+              Feitas
+            </li>
+
+            <li class="filter__item" style="--bullet-color: #F24444">
+              A fazer
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <ul class="todo__list">
+        <li class="todo__item">
+          <strong class="todo__tag">
+            #UIDesign
+          </strong>
+
+          <p class="todo__title">Criar Design de alta fidelidade da Home</p>
+
+          <span class="todo__created-by">
+            Por: Pierre Boschetto
+          </span>
+        </li>
+
+        <li class="todo__item">
+          <strong class="todo__tag">
+            #UIDesign
+          </strong>
+
+          <p class="todo__title">Criar Design de alta fidelidade da Home</p>
+
+          <span class="todo__created-by">
+            Por: Pierre Boschetto
+          </span>
+        </li>
+
+        <li class="todo__item">
+          <strong class="todo__tag">
+            #UIDesign
+          </strong>
+
+          <p class="todo__title">Criar Design de alta fidelidade da Home</p>
+
+          <span class="todo__created-by">
+            Por: Pierre Boschetto
+          </span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  
+</body>
+</html>
